@@ -10,8 +10,10 @@
 ?>
 
 <?php
+/*
     define('DB_HOST','localhost');
     define('DB_NAME','banco2');
     define('DB_USER','banco2');
     define('DB_PASS','123');
+*/
 ?>

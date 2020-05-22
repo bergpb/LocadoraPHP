@@ -24,7 +24,7 @@
             <button>Salvar</button>
             <br/>
             <span>Retornar:</span>
-            <a href="../views/cadastro.php" id="criarConta">aqui*</a>
+            <a href="../views/cadastro.php" id="criarConta">aqui</a>
             <br/><br/>
         </form>
     </div>
