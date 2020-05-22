@@ -39,9 +39,8 @@ Para acompanhamento do versionamento, siga o link onde possui a arelação de to
 **2 -** Clone o projeto em sua máquina:
 ```sh
 $ git clone https://github.com/EvyOliveira/LocadoraPHP
-$ cd Locadora
 ```
-- Mova o projeto até o diretório www localizada na raiz do UwAmp
+- Mova o projeto até o diretório 'www' localizada na raiz do UwAmp
 
 **3 -** Rode o projeto no modo de desenvolvedor:
 - Selecionar a porta de resposta da aplicação
