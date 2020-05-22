@@ -10,8 +10,8 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="./css/style-home.css">
-    <title>Alteração de Dados</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Alterar Dados</title>
 </head>
 <body>
     <div class="formResetSenha">
@@ -24,7 +24,7 @@
             <button>Salvar</button>
             <br/>
             <span>Retornar:</span>
-            <a href="../views/cadastro.php" id="criarConta">aqui</a>
+            <a href="../views/cadastro.php" id="criarConta">aqui*</a>
             <br/><br/>
         </form>
     </div>

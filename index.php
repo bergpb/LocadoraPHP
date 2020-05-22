@@ -4,17 +4,17 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Rent a Car</title>
+        <title>Login</title>
         <link href="./css/reset.css" type="text/css" rel="stylesheet">
         <link href="./css/style-home.css" type="text/css" rel="stylesheet">
     </head>
-    <body class="default">
+    <body>
         <div class="formLogin">
             <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-                <h3>Acesse sua conta:</h3>
-                    <input type="text" placeholder="Digite seu e-mail" name="f_mail"><br/>               
-                    <input type="password" placeholder="Digite sua senha" name="f_senha"><br/>            
-                    <button name="btn_entrar" type="submit">Entrar</button>                    
+                <h3>Login</h3>
+                    <input type="text" placeholder="E-mail" name="f_mail"><br/>               
+                    <input type="password" placeholder="Senha" name="f_senha"><br/>            
+                    <button type="submit">Entrar</button>                    
                     <br/>                    
                     <a href="./views/resetSenha.php">Esqueceu a senha?</a>
                     <br/><br/><br/>

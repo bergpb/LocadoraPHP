@@ -8,19 +8,19 @@
     <link rel="stylesheet" href="../css/style-home.css">   
     <title>Cadastro</title>
 </head>
-<body class="default">
+<body>
     <div class="formCadastro">
         <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
             <h3>Cadastre-se</h3>
             <input type="text" name="f_nome" placeholder="Nome"/>
             <br/>
-            <input type="text" name="f_mail" placeholder="E-mail"/>
+            <input type="text" name="f_mail" placeholder="Email"/>
             <br/>                    
             <input type="password" name="f_senha" id="txtPassword" placeholder="Senha"/>
             <br/>
             <button onclick="validar_cadastro()">Criar Conta</button>
-            <br/><br/>
-            <a href="../index.php" id="navegacao">Retornar à página inicial</a>
+            <br/><br/><br/>
+            <a href="../index.php" id="navegacao">Retornar ao Login</a>
         </form>
     </div>
     <?php

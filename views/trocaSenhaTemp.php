@@ -6,8 +6,8 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="./css/style-home.css">
-    <title>Recuperação de Conta</title>
+    <link rel="stylesheet" href="../css/style-home.css">
+    <title>Recuperar</title>
 </head>
 <body>
     <div class="formResetSenha">

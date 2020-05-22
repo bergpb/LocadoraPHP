@@ -4,20 +4,19 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style-home.css">
-    <title>Recuperação de conta</title>
+    <title>Recuperar</title>
 </head>
-<body class="default">
+<body>
     <div class="formResetSenha">
-        <h3>Recuperação de conta</h3>
-        <br/>
+        <h3>Recuperar</h3>
         <input type="text" name="txtEmail" id="txtEmail" placeholder="Informe seu email"/>
         <br/>
         <button onclick="validar_recuperacao()">Enviar</button>
         <br/>
         <span>Criar uma nova conta:</span>
-        <a href="../views/novoUsuario.php" id="criarConta">Cadastrar</a>
-        <br/><br/><br/>
-        <a href="../index.php">Retornar à página inicial</a>
+        <a href="../views/novoUsuario.php" id="criarConta">Cadastrar*</a>
+        <br/><br/>
+        <a href="../index.php">Retornar ao Login</a>
     </div>
 </body>
 </html>
